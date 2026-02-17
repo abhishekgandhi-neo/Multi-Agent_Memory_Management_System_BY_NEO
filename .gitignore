@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+.venv/
+
+# API keys & secrets
+.env
+*.env
+
+# Persistent database files
+data/memory.db
+data/chroma/
+data/raw/
+
+# Generated benchmark outputs
+analysis/benchmark_results.csv
+analysis/*.png
+analysis/*.jpg
+
+# Temp files
+.tmp/
+*.tmp
+*.bat
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.tmp

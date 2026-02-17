@@ -1,0 +1,11 @@
+requests
+openai
+chromadb
+sqlalchemy
+pydantic
+python-dotenv
+datasets
+pandas
+matplotlib
+streamlit
+sentence-transformers
