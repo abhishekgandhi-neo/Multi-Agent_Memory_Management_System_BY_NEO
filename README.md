@@ -1,18 +1,18 @@
-# Multi-Agent Memory Management System By Neo
+# Multi-Agent Memory Management System
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Built by NEO](https://img.shields.io/badge/built%20by-NEO-black.svg)](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
 
-> Intelligent, persistent memory for LLMs — powered by autonomous agents, semantic search, and a 3-tier hierarchy. Built to integrate directly with the **NEO VSCode Extension**.
+> Intelligent, persistent memory for LLMs — powered by autonomous agents, semantic search, and a 3-tier hierarchy.
 
 ---
 
-## Why Neo Beats Existing Solutions
+## Why Our Beats Existing Solutions
 
-Most LLM memory tools simply truncate history or dump everything into the prompt. Neo takes a fundamentally different approach.
+Most LLM memory tools simply truncate history or dump everything into the prompt. this takes a fundamentally different approach.
 
-| Feature          | Typical Memory Tools               | **Neo Multi-Agent System**                              |
+| Feature          | Typical Memory Tools               | **Our Multi-Agent System**                              |
 | ---------------- | ---------------------------------- | ------------------------------------------------------- |
 | Memory strategy  | Truncate or full history dump      | 3-tier hierarchy: Hot / Cold / Summary                  |
 | Retrieval        | FIFO or recency-only               | Semantic vector search + context awareness              |
@@ -22,7 +22,6 @@ Most LLM memory tools simply truncate history or dump everything into the prompt
 | Token efficiency | Linear growth → hits context limit | **35–45% token reduction** via smart pruning            |
 | Observability    | None                               | Per-session metrics, latency analytics                  |
 | Summarization    | Manual                             | Automatic threshold-based consolidation                 |
-| NEO Extension    | N/A                                | **Native VSCode integration**                           |
 
 **Key differentiators:**
 
@@ -37,7 +36,7 @@ Most LLM memory tools simply truncate history or dump everything into the prompt
 ## Architecture
 
 ```
-User / NEO Extension
+        User
         │
         ▼
 MemoryAgentSystem (Core)
@@ -221,17 +220,8 @@ CONTEXT: 23 raw turns → 7 injected (summary + 2 vector hits + 5 hot)
 
 ---
 
-## Support
+<div >
 
-- **NEO Extension**: [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=NeoResearchInc.heyneo)
-- **Bug Reports**: [GitHub Issues](https://github.com/your-org/agents_base_memory_management/issues)
-- **Docs**: [ARCHITECTURE.md](./ARCHITECTURE.md) | [USAGE_GUIDE.md](./USAGE_GUIDE.md)
-- **Contact**: support@neo-research.com
-
----
-
-<div align="center">
-
-Built with by **NEO Research Inc.** · Powered by [OpenRouter](https://openrouter.ai/) · Embeddings by [Sentence Transformers](https://www.sbert.net/)
+Built for developers · Powered by [OpenRouter](https://openrouter.ai/) · Embeddings by [Sentence Transformers](https://www.sbert.net/)
 
 </div>
